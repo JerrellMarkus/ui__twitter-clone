@@ -9,7 +9,8 @@ function FollowSuggestion({ name, nickname }) {
         <Avatar />
         <Info>
           <strong>{name}</strong>
-          <span>{nickname}</span>
+          <span className="username">
+{nickname}</span>
         </Info>
       </div>
       <FollowButton outlined>Follow</FollowButton>

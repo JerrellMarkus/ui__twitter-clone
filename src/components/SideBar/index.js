@@ -5,6 +5,7 @@ import List from '../List'
 import News from '../News'
 import FollowSuggestion from '../FollowSuggestion'
 import { Container, SearchWrapper, SearchBar, SearchIcon, Body } from './styles'
+import Footer from '../Footer/Footer'
 
 function SideBar() {
   return (
@@ -14,9 +15,11 @@ function SideBar() {
         <SearchIcon />
       </SearchWrapper>
 
-      <StickyBox>
-        <Body>
-          <List
+      <StickyBox           className="title"
+>
+        <Body
+        className="suggestion">
+          <List  
             title="You might like"
             elements={[
               <FollowSuggestion name="Jane Doe" nickname="@jdoe" />,
@@ -35,8 +38,12 @@ function SideBar() {
             elements={[<News />, <News />, <News />]}
           />
         </Body>
+              <Footer>
+      </Footer>
       </StickyBox>
+
     </Container>
+
   )
 }
 

@@ -2,12 +2,22 @@
   "name": "twitter-clone",
   "version": "1.0.0",
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "formik": "^2.2.6",
+    "muicss": "^0.10.2",
     "react": "^16.13.1",
+    "react-bootstrap": "^1.4.3",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
     "react-sticky-box": "^0.9.3",
+    "react-yup": "^1.20.0",
     "styled-components": "^5.2.0",
-    "styled-icons": "^10.19.0"
+    "styled-icons": "^10.19.0",
+    "yup": "^0.32.8"
   },
   "scripts": {
     "start": "react-scripts start",

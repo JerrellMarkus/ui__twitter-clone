@@ -24,7 +24,7 @@ export const Container = styled.div`
 
     padding: 9px 19px 20px;
     max-height: 100vh;
-    overflow-y: auto;
+    overflow: hidden;
   }
 `
 
@@ -71,8 +71,8 @@ export const MenuButton = styled.button`
   }
 
   & + button:last-child {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     margin-top: 33px;
 
     > span {
@@ -100,7 +100,11 @@ export const MenuButton = styled.button`
       font-size: 19px;
       font-weight: bold;
     }
+	
+	
   }
+  
+
 `
 
 export const TwitterIcon = styled(Twitter)`

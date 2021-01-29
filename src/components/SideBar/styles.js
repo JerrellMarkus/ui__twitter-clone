@@ -69,7 +69,7 @@ export const Body = styled.div`
   flex-direction: column;
 
   margin-top: 3px;
-  padding: 57px 24px 200px;
+  padding: 57px 24px 20px;
 
   > div + div {
     margin-top: 15px;
